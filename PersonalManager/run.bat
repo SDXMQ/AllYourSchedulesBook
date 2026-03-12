@@ -1,0 +1,6 @@
+@echo off
+echo Installing required libraries...
+pip install -r requirements.txt
+echo Starting Personal Manager...
+python src\main.py
+pause

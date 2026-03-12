@@ -63,6 +63,9 @@ THEMES = {
 
 # ═══════════ TRANSLATIONS ═══════════
 _K = {
+    'tag_meal':'식사', 'tag_hobby':'취미', 'tag_shopping':'쇼핑', 'tag_necessity':'생필품', 'tag_bills':'공과금', 'tag_savings':'저축',
+    'nav_search':'검색','nav_stats':'통계','pin_setup':'PIN 변경 (4자리)','pin_enable':'앱 잠금 (PIN) 사용','pin_prompt':'PIN 번호를 입력하세요','pin_wrong':'PIN 번호가 틀렸습니다.','repeat':'반복','repeat_none':'없음','repeat_daily':'매일','repeat_weekly':'매주','repeat_monthly':'매월','repeat_yearly':'매년','stats_title':'가계부 통계','chart_pie':'파이 차트','chart_bar':'막대 그래프','no_data':'차트를 그릴 데이터가 없습니다.','search_ph':'검색어 입력...','search_res':'검색 결과: ','search_empty':'검색 결과가 없습니다.','type_contacts':'연락처', 'type_ledger':'가계부', 'type_events':'일정', 'type_diary':'다이어리', 'type_reminders':'리마인더', 'stats_sel_month':'월 선택', 'stats_nodata':'해당 월 지출 데이터 없음',
+
     'app_title':'Personal Manager',
     'nav_contacts':'연락처','nav_ledger':'가계부','nav_calendar':'달력',
     'nav_diary':'다이어리','nav_reminder':'리마인더','nav_settings':'설정',
@@ -106,6 +109,9 @@ _K = {
 }
 
 _E = {
+    'tag_meal':'Meal', 'tag_hobby':'Hobby', 'tag_shopping':'Shopping', 'tag_necessity':'Necessity', 'tag_bills':'Bills', 'tag_savings':'Savings',
+    'nav_search':'Search','nav_stats':'Stats','pin_setup':'Change PIN','pin_enable':'Enable PIN Lock','pin_prompt':'Enter PIN','pin_wrong':'Incorrect PIN.','repeat':'Repeat','repeat_none':'None','repeat_daily':'Daily','repeat_weekly':'Weekly','repeat_monthly':'Monthly','repeat_yearly':'Yearly','stats_title':'Ledger Stats','chart_pie':'Pie Chart','chart_bar':'Bar Chart','no_data':'No data to draw chart.','search_ph':'Search keywords...','search_res':'Search Results: ','search_empty':'No results found.','type_contacts':'Contacts', 'type_ledger':'Ledger', 'type_events':'Events', 'type_diary':'Diary', 'type_reminders':'Reminders', 'stats_sel_month':'Select Month', 'stats_nodata':'No data for this month',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Contacts','nav_ledger':'Ledger','nav_calendar':'Calendar',
     'nav_diary':'Diary','nav_reminder':'Reminders','nav_settings':'Settings',
@@ -149,6 +155,9 @@ _E = {
 }
 
 _J = {
+    'tag_meal':'食事', 'tag_hobby':'趣味', 'tag_shopping':'買い物', 'tag_necessity':'日用品', 'tag_bills':'光熱費', 'tag_savings':'貯金',
+    'nav_search':'検索','nav_stats':'統計','pin_setup':'PIN変更','pin_enable':'アプリロック(PIN)有効','pin_prompt':'PIN入力','pin_wrong':'PINが違います。','repeat':'繰り返し','repeat_none':'なし','repeat_daily':'毎日','repeat_weekly':'毎週','repeat_monthly':'毎月','repeat_yearly':'毎年','stats_title':'家計簿統計','chart_pie':'円グラフ','chart_bar':'棒グラフ','no_data':'データがありません','search_ph':'キーワード検索...','search_res':'検索結果: ','search_empty':'結果がありません。','type_contacts':'連絡先', 'type_ledger':'家計簿', 'type_events':'予定', 'type_diary':'日記', 'type_reminders':'リマインダー', 'stats_sel_month':'月選択', 'stats_nodata':'データなし',
+
     'app_title':'Personal Manager',
     'nav_contacts':'連絡先','nav_ledger':'家計簿','nav_calendar':'カレンダー',
     'nav_diary':'日記','nav_reminder':'リマインダー','nav_settings':'設定',
@@ -192,6 +201,9 @@ _J = {
 }
 
 _Z = {
+    'tag_meal':'餐饮', 'tag_hobby':'爱好', 'tag_shopping':'购物', 'tag_necessity':'日用品', 'tag_bills':'水电费', 'tag_savings':'储蓄',
+    'nav_search':'搜索','nav_stats':'统计','pin_setup':'更改PIN','pin_enable':'启用应用锁 (PIN)','pin_prompt':'输入PIN','pin_wrong':'PIN错误。','repeat':'重复','repeat_none':'无','repeat_daily':'每天','repeat_weekly':'每周','repeat_monthly':'每月','repeat_yearly':'每年','stats_title':'账单统计','chart_pie':'饼图','chart_bar':'柱状图','no_data':'无图表数据','search_ph':'输入搜索关键字...','search_res':'搜索结果: ','search_empty':'没有找到结果。','type_contacts':'联系人', 'type_ledger':'账单', 'type_events':'日程', 'type_diary':'日记', 'type_reminders':'提醒', 'stats_sel_month':'选月', 'stats_nodata':'此月无数据',
+
     'app_title':'Personal Manager',
     'nav_contacts':'联系人','nav_ledger':'账本','nav_calendar':'日历',
     'nav_diary':'日记','nav_reminder':'提醒','nav_settings':'设置',
@@ -235,6 +247,9 @@ _Z = {
 }
 
 _ES = {
+    'tag_meal':'Comida', 'tag_hobby':'Hobby', 'tag_shopping':'Compras', 'tag_necessity':'Necesidades', 'tag_bills':'Facturas', 'tag_savings':'Ahorros',
+    'nav_search':'Buscar','nav_stats':'Estadíst','pin_setup':'Cambiar PIN','pin_enable':'Bloqueo por PIN','pin_prompt':'Ingrese PIN','pin_wrong':'PIN incorrecto.','repeat':'Repetir','repeat_none':'Ninguno','repeat_daily':'Diario','repeat_weekly':'Semanal','repeat_monthly':'Mensual','repeat_yearly':'Anual','stats_title':'Estadística','chart_pie':'Gráfico Circular','chart_bar':'Gráfico Barras','no_data':'Sin datos','search_ph':'Buscar...','search_res':'Resultados: ','search_empty':'Sin resultados.','type_contacts':'Contactos', 'type_ledger':'Contab.', 'type_events':'Eventos', 'type_diary':'Diario', 'type_reminders':'Recordat.', 'stats_sel_month':'Mes', 'stats_nodata':'Sin datos este mes',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Contactos','nav_ledger':'Contabilidad','nav_calendar':'Calendario',
     'nav_diary':'Diario','nav_reminder':'Recordatorios','nav_settings':'Ajustes',
@@ -278,6 +293,9 @@ _ES = {
 }
 
 _FR = {
+    'tag_meal':'Repas', 'tag_hobby':'Hobby', 'tag_shopping':'Achats', 'tag_necessity':'Nécessités', 'tag_bills':'Factures', 'tag_savings':'Épargne',
+    'nav_search':'Chercher','nav_stats':'Stats','pin_setup':'Changer PIN','pin_enable':'Ver. par PIN','pin_prompt':'Entrez PIN','pin_wrong':'PIN erroné.','repeat':'Répéter','repeat_none':'Aucun','repeat_daily':'Quotidien','repeat_weekly':'Hebdo','repeat_monthly':'Mensuel','repeat_yearly':'Annuel','stats_title':'Stats','chart_pie':'Camembert','chart_bar':'Histogramme','no_data':'Pas de val.','search_ph':'Mots-clés...','search_res':'Résultats: ','search_empty':'Aucun résultat.','type_contacts':'Contacts', 'type_ledger':'Compta', 'type_events':'Événements', 'type_diary':'Journal', 'type_reminders':'Rappels', 'stats_sel_month':'Mois', 'stats_nodata':'Pas de données',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Contacts','nav_ledger':'Comptabilité','nav_calendar':'Calendrier',
     'nav_diary':'Journal','nav_reminder':'Rappels','nav_settings':'Paramètres',
@@ -321,6 +339,9 @@ _FR = {
 }
 
 _DE = {
+    'tag_meal':'Essen', 'tag_hobby':'Hobby', 'tag_shopping':'Einkaufen', 'tag_necessity':'Bedarf', 'tag_bills':'Rechnungen', 'tag_savings':'Sparen',
+    'nav_search':'Suchen','nav_stats':'Stats','pin_setup':'PIN ändern','pin_enable':'App-Sperre (PIN)','pin_prompt':'PIN eingeben','pin_wrong':'Falsche PIN.','repeat':'Wiederh','repeat_none':'Keine','repeat_daily':'Täglich','repeat_weekly':'Wöchentlich','repeat_monthly':'Monatlich','repeat_yearly':'Jährlich','stats_title':'Statistiken','chart_pie':'Kreisdig','chart_bar':'Balkendlg','no_data':'Keine Daten','search_ph':'Suchen...','search_res':'Ergebnisse: ','search_empty':'Keine Ergebnisse.','type_contacts':'Kontakte', 'type_ledger':'Konto', 'type_events':'Termine', 'type_diary':'Tagebuch', 'type_reminders':'Erinnerung', 'stats_sel_month':'Monat', 'stats_nodata':'Keine Daten',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Kontakte','nav_ledger':'Haushaltsbuch','nav_calendar':'Kalender',
     'nav_diary':'Tagebuch','nav_reminder':'Erinnerungen','nav_settings':'Einstellungen',
@@ -364,6 +385,9 @@ _DE = {
 }
 
 _PT = {
+    'tag_meal':'Refeição', 'tag_hobby':'Hobby', 'tag_shopping':'Compras', 'tag_necessity':'Despesas', 'tag_bills':'Contas', 'tag_savings':'Poupança',
+    'nav_search':'Buscar','nav_stats':'Estat','pin_setup':'Mudar PIN','pin_enable':'Trava (PIN)','pin_prompt':'Digite PIN','pin_wrong':'PIN errado.','repeat':'Repetir','repeat_none':'Nenhum','repeat_daily':'Diário','repeat_weekly':'Semanal','repeat_monthly':'Mensal','repeat_yearly':'Anual','stats_title':'Estatísticas','chart_pie':'Pizza','chart_bar':'Barras','no_data':'Sem dados','search_ph':'Palavras...','search_res':'Resultados: ','search_empty':'Vazio.','type_contacts':'Contatos', 'type_ledger':'Finanças', 'type_events':'Eventos', 'type_diary':'Diário', 'type_reminders':'Lembretes', 'stats_sel_month':'Mês', 'stats_nodata':'Zero dados',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Contatos','nav_ledger':'Finanças','nav_calendar':'Calendário',
     'nav_diary':'Diário','nav_reminder':'Lembretes','nav_settings':'Configurações',
@@ -407,6 +431,9 @@ _PT = {
 }
 
 _RU = {
+    'tag_meal':'Еда', 'tag_hobby':'Хобби', 'tag_shopping':'Покупки', 'tag_necessity':'Необходимое', 'tag_bills':'Счета', 'tag_savings':'Сбережения',
+    'nav_search':'Поиск','nav_stats':'Стат','pin_setup':'Сменить PIN','pin_enable':'PIN вход','pin_prompt':'Ввод PIN','pin_wrong':'Неверный PIN.','repeat':'Повтор','repeat_none':'Нет','repeat_daily':'Ежедн','repeat_weekly':'Еженед','repeat_monthly':'Ежемес','repeat_yearly':'Ежегод','stats_title':'Статистика','chart_pie':'Круговая','chart_bar':'Гистограмма','no_data':'Нет данных','search_ph':'Поиск...','search_res':'Рез-ты: ','search_empty':'Пусто.','type_contacts':'Контакты', 'type_ledger':'Финансы', 'type_events':'События', 'type_diary':'Дневник', 'type_reminders':'Напоминания', 'stats_sel_month':'Месяц', 'stats_nodata':'Пусто',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Контакты','nav_ledger':'Финансы','nav_calendar':'Календарь',
     'nav_diary':'Дневник','nav_reminder':'Напоминания','nav_settings':'Настройки',
@@ -450,6 +477,9 @@ _RU = {
 }
 
 _VI = {
+    'tag_meal':'Ăn uống', 'tag_hobby':'Sở thích', 'tag_shopping':'Mua sắm', 'tag_necessity':'Đồ dùng', 'tag_bills':'Hóa đơn', 'tag_savings':'Tiết kiệm',
+    'nav_search':'Tìm','nav_stats':'Thống kê','pin_setup':'Đổi PIN','pin_enable':'Khóa (PIN)','pin_prompt':'Nhập PIN','pin_wrong':'Sai PIN.','repeat':'Lặp','repeat_none':'Không','repeat_daily':'Hàng ngày','repeat_weekly':'Hàng tuần','repeat_monthly':'Hàng tháng','repeat_yearly':'Hàng năm','stats_title':'Thống kê','chart_pie':'Biểu đồ tròn','chart_bar':'Biểu đồ cột','no_data':'Ko đủ d.liệu','search_ph':'Tìm kiếm...','search_res':'Kết quả: ','search_empty':'Ko tìm thấy.','type_contacts':'Danh bạ', 'type_ledger':'Sổ chi', 'type_events':'Sự kiện', 'type_diary':'Nhật ký', 'type_reminders':'Nhắc nhở', 'stats_sel_month':'Tháng', 'stats_nodata':'Ko có d.liệu',
+
     'app_title':'Personal Manager',
     'nav_contacts':'Danh bạ','nav_ledger':'Sổ chi tiêu','nav_calendar':'Lịch',
     'nav_diary':'Nhật ký','nav_reminder':'Nhắc nhở','nav_settings':'Cài đặt',
@@ -533,3 +563,10 @@ def fmt_month_year(year, month):
     s = t('month_year')
     mn = get_months()[month-1]
     return s.replace('{year}', str(year)).replace('{month}', str(month)).replace('{month_name}', mn)
+
+
+def t_tag(tag):
+    m = {'식사':'tag_meal', '취미':'tag_hobby', '쇼핑':'tag_shopping', '생필품':'tag_necessity', '공과금':'tag_bills', '저축':'tag_savings'}
+    if tag in m:
+        return t(m[tag])
+    return tag

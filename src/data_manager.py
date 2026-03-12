@@ -9,9 +9,19 @@ class DataManager:
     def __init__(self):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self._files = {k: os.path.join(self.base_dir, f'{k}.txt')
-                       for k in ('contacts', 'ledger', 'events', 'diary', 'reminders', 'tags')}
+                       for k in ('contacts', 'ledger', 'events', 'diary', 'reminders', 'tags', 'settings')}
         if not self._load('tags'):
             self._save('tags', list(DEFAULT_TAGS))
+
+    # ===== 설정 =====
+    def get_settings(self):
+        data = self._load('settings')
+        if isinstance(data, dict):
+            return data
+        return {'language': 'ko', 'theme': 'dark_purple'}
+
+    def save_settings(self, settings):
+        self._save('settings', settings)
 
     def _load(self, key):
         fp = self._files[key]

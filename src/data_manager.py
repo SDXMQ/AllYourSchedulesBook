@@ -1,5 +1,5 @@
 """데이터 관리 모듈 - Base64 인코딩 JSON 파일 기반 저장/로드"""
-import json, base64, os
+import json, base64, os, sys
 from datetime import datetime, timedelta
 
 DEFAULT_TAGS = ['식사', '취미', '쇼핑', '생필품', '공과금', '저축']
@@ -12,7 +12,10 @@ def _add_months(dt, months):
 
 class DataManager:
     def __init__(self):
-        self.base_dir = os.path.dirname(os.path.abspath(__file__))
+        if getattr(sys, 'frozen', False):
+            self.base_dir = os.path.dirname(sys.executable)
+        else:
+            self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self._files = {k: os.path.join(self.base_dir, f'{k}.txt')
                        for k in ('contacts', 'ledger', 'events', 'diary', 'reminders', 'tags', 'settings')}
         if not self._load('tags'):
